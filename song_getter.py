@@ -1,4 +1,4 @@
-__author__ = 'Chris Carruth and Alicia Peterson'
+__author__ = 'Sina Tashakkori'
 
 from  pyechonest import song
 from pyechonest import config
