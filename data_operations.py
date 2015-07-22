@@ -1,4 +1,4 @@
-__author__ = 'campuser'
+__author__ = 'Sina Tashakkori'
 
 import json
 import xlrd
