@@ -165,8 +165,8 @@ def similarity_measurer(a, b):
 
     total_elements = a.shape[0] * a.shape[1]
 
-    # return the number of accurate readings
-    return float(true_positives + true_negatives) / total_elements
+    # return the precision.
+    return float(true_positives) / (true_positives + true_negatives)
 
 def gaussian_mixture_model(data, number_of_dimensions, map, song_names):
     g = mixture.GMM(n_components = int(len(data)/10))
